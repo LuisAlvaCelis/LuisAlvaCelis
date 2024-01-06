@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Luis Alva Celis</title>
+    <title>Luis Alva Celis</title>
 </head>
 <body>
-    <p>test jeje</p>
+    <p>test</p>
+    
 </body>
 </html>
