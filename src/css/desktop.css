@@ -1,0 +1,28 @@
+:root {
+  --grey: #dcdcdc;
+  --grey-dark: #999a9f;
+  --dark: #1d1d1d;
+  --warm-dark: #333439;
+  --orange: #f79f1a;
+  --purple: #b01af7;
+  --soft-white: #e0e0e0;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black-oneplus: #282623;
+  --off-white: #faf8f7;
+  --just-White: #ffffff;
+}
+
+.design-mobile {
+  display: none;
+}
+
+.design-desktop {
+  height: 100vh;
+  color: var(--just-White);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}

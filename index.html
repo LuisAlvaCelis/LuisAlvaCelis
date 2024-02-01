@@ -3,98 +3,267 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles.css" />
     <title>Luis Alva Celis</title>
+    <link
+      rel="stylesheet"
+      href="https://db.onlinewebfonts.com/c/6a28a1fb5b77054a12626d0c23c92aa2?family=Cera+CY+Bold"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="src/css/desktop.css"
+      media="(min-width:400px)"
+    />
   </head>
+
   <body>
-    <header>
-      <h1>Luis Angel Hugo Alva Celis</h1>
-      <p>
-        Desarrollador FullStack (En proceso) / Analista de Datos (Power BI,
-        Excel, SQL)
-      </p>
-    </header>
+    <div class="design-mobile">
+      <header>
+        <nav class="navbar">
+          <span class="icon-logo"></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
 
-    <section id="about">
-      <h2>Sobre mí</h2>
-      <p>
-        Estudiante séptimo ciclo de la carrera de ing. de sistemas de la
-        Universidad Cesar Vallejo - Lima, Perú
-      </p>
-    </section>
-
-    <section id="projects">
-      <h2>Proyectos Destacados</h2>
-      <div class="projects">
-        <div class="proyect-1">
-          <h3>Sistema JZG</h3>
+        <div
+          class="collapse-header-container collapse bg-dark p-4"
+          id="navbarToggleExternalContent"
+        >
           <ul>
             <li>
-              Repositorio:
-              <a href="https://github.com/luisalvacelis/jzg" target="_blank">
-                GitHub</a
+              <a href="#home">Inicio</a>
+            </li>
+            <li>
+              <a href="#about-me">Sobre mi</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#portfolio">Proyectos Realizados</a>
+            </li>
+            <li>
+              <a href="#expjob">Experiencia Laboral</a>
+            </li>
+            <li>
+              <a href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <section class="main-home-container" id="home">
+          <div class="main-home-container--title">
+            <div class="content">
+              <h2>Ingeniero de Sistemas</h2>
+              <h1>Luis Alva Celis</h1>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-aboutme-container" id="about-me">
+          <div class="aboutme-content">
+            <h2 class="aboutme-content--title">Sobre mi</h2>
+            <div class="aboutme-content--img">
+              <img src="src/assets/images/img-perfil-v1.svg" alt="" />
+            </div>
+            <div class="aboutme-content--info">
+              <p>
+                Estudiante de octavo ciclo de la carrera de Ing. de Sistemas.
+                <br />
+                Desarrollador Fullstack en formaci&oacute;n con habilidades
+                avanzadas en la creaci&oacute;n de indicadores de gestión para
+                contact centers (Excel, Power BI, PowerPoint). Comprometido con
+                la innovaci&oacute;n y la excelencia t&eacute;cnica en el
+                desarrollo de soluciones web/desktop.
+              </p>
+            </div>
+            <div class="container-carousel">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-ride="carousel"
               >
-            </li>
-            <li>Lenguajes utilizados: Java - MySQL</li>
-          </ul>
-          <p>
-            Sistema para el envio de correos de forma masiva, verificar correos,
-            almacenar imagenes, prueba de mecanografía y registro de propuestas.
-          </p>
-        </div>
-      </div>
-    </section>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class="d-block"
+                      src="src/assets/images/img_touse-1.svg"
+                      alt="First slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block"
+                      src="src/assets/images/img_touse-2.svg"
+                      alt="Second slide"
+                    />
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    <section id="courses">
-      <h2>Cursos Desarrollados</h2>
-      <div class="courses">
-        <div class="course-1">
-          <h3>Curso Gratis de Programación Básica - Platzi</h3>
-          <ul>
-            <li>
-              Repositorio:
-              <a href="https://github.com/luisalvacelis/first-page">GitHub</a>
-            </li>
-            <li>Lenguajes utilizados: HTML - CSS - JavaScript</li>
-          </ul>
-          <p>
-            Aplicando fundamentos y sintaxis correctas en el desarrollo de un
-            minijuego denominado como Mokepon en un sitio web
-          </p>
-        </div>
-        <div class="course-2">
-          <h3>Computación Básica - Platzi</h3>
-          <ul>
-            <li>Repositorio: Ninguno</li>
-            <li>Lenguajes utilizados: Ninguno</li>
-          </ul>
-          <p>Conceptos, Historia y flujo de una computadora.</p>
-        </div>
-      </div>
-    </section>
+        <section class="main-skills-container" id="skills">
+          <div class="main-skills-container--title">
+            <h2>Skills</h2>
+            <p>Habilidades aprendidas a lo largo del tiempo y la experiencia</p>
 
-    <section id="contact">
-      <h2>Contacto</h2>
-      <p>Puedes contactarme a través de:</p>
-      <ul>
-        <li>Email: luisalvacelis@gmail.com</li>
-        <li>
-          LinkedIn:
-          <a href="https://www.linkedin.com/in/luisalvacelis" target="_blank"
-            >luisalvacelis</a
-          >
-        </li>
-        <li>
-          GitHub:
-          <a href="https://github.com/luisalvacelis" target="_blank"
-            >luisalvacelis</a
-          >
-        </li>
-      </ul>
-    </section>
+            <div class="main-skills-container--slider">
+              <div class="owl-carousel">
+                <div class="item card">
+                  <span class="fa-brands fa-java fa-2xl"></span>
+                  <h5 class="card-title">Java</h5>
+                </div>
 
-    <footer>
-      <p>&copy; 2024 Luis Alva Celis - Portafolio</p>
-    </footer>
+                <div class="item card">
+                  <span class="fa-brands fa-php fa-2xl"></span>
+                  <h5 class="card-title">PHP</h5>
+                </div>
+
+                <div class="item card">
+                  <span class="fa-brands fa-html5 fa-2xl"></span>
+                  <h5 class="card-title">HTML</h5>
+                </div>
+
+                <div class="item card">
+                  <span class="fa-brands fa-css3-alt fa-2xl"></span>
+                  <h5 class="card-title">CSS</h5>
+                </div>
+
+                <div class="item card">
+                  <span class="fa-brands fa-js fa-2xl"></span>
+                  <h5 class="card-title">JavaScript</h5>
+                </div>
+
+                <div class="item card">
+                  <span class="fa-solid fa-database fa-2xl"></span>
+                  <h5 class="card-title">SQL</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-porftolio-container" id="portfolio">
+          <div class="main-portfolio-container--title">
+            <h2>Proyectos Realizados</h2>
+          </div>
+          <div class="main-portfolio--slider" id="repositories"></div>
+        </section>
+
+        <section class="main-expjob-container" id="expjob">
+          <div class="expjob-detail--title">
+            <h2>Experiencia Laboral</h2>
+          </div>
+          <div class="expjob-container--articles">
+            <article class="expjob-detail--card">
+              <p class="expjob--card-time">2021-12 - 2023-12</p>
+              <p class="expjob--card-title">
+                Desarrollador y Analista de Datos
+              </p>
+              <p class="expjob--card-company">JZG Abogados E.I.R.L</p>
+              <p class="expjob--card-body">
+                indicadores de gesti&oacute;n y resultados, ranking de asesores,
+                comparativos, presentaciones en power bi/power point,
+                seguimientos de KPIs, reportes de calidad y desarrollando
+                programas para la automatizaci&oacute;n de procesos, como envio
+                de correos de forma masiva, sistema de comprobantes de pagos,
+                p&aacute;ginas web para propuestas, etc.
+              </p>
+            </article>
+
+            <article class="expjob-detail--card">
+              <p class="expjob--card-time">2021-04 - 2021-08</p>
+              <p class="expjob--card-title">Asesor de Ventas</p>
+              <p class="expjob--card-company">Netcall Perú S.A.C</p>
+              <p class="expjob--card-body">
+                Venta de planes Entel y dispositivos moviles, con campañas de
+                descuento y prorrateos.
+              </p>
+            </article>
+
+            <article class="expjob-detail--card">
+              <p class="expjob--card-time">2021-01 - 2021-03</p>
+              <p class="expjob--card-title">Asesor de Ventas</p>
+              <p class="expjob--card-company">Stratton Perú S.A.C</p>
+              <p class="expjob--card-body">
+                Venta de planes Entel y dispositivos moviles, con campañas de
+                descuento y prorrateos.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer></footer>
+    </div>
+    <div class="design-desktop">
+      <h2>Error: Desktop design not available, currently only for mobile</h2>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/8ed44893fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="src/js/script.js"></script>
   </body>
 </html>
