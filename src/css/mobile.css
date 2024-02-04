@@ -234,7 +234,7 @@ header .collapse-header-container ul {
   padding-bottom: 8px;
 }
 
-.main-porftolio-container {
+.main-portfolio-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -379,8 +379,7 @@ header .collapse-header-container ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  background: linear-gradient(to bottom right, #080027, #1f2544);
+  background: linear-gradient(to bottom right, #020204, #080027);
 }
 
 .main-contactme--socialmedia h2 {
