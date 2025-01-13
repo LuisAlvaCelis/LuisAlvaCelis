@@ -261,7 +261,7 @@ header {
 .main-skills--icons ul {
   display: grid;
   gap: 30px;
-  grid-template-columns: 64px 64px 64px;
+  grid-template-columns: 64px 64px 64px 64px 64px;
   margin: 0;
   list-style: none;
 }
